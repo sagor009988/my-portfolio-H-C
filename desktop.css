@@ -1,0 +1,142 @@
+/* for desktop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.nav-menu {
+    flex-direction: row;
+   justify-content: flex-end;
+}
+
+.nav-heading{
+    text-align: right;
+}
+.nav-menu a{
+    background-color: transparent;
+}
+
+/* profile style */
+
+.profile-top-icon{
+    margin: 20px 0;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    transition: width 8s  transform 3s;
+    width: 150px;
+
+}
+
+.profile-top-icon:hover{
+    transform: rotate(360deg);
+    width: 200px;
+}
+
+.profile-bottom-icon{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    transition: transform 3s;
+    width: 150px;
+
+}
+
+.profile-bottom-icon:hover{
+    transform: rotate(360deg);
+    width: 200px;
+}
+
+.profile-des{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+
+/* about me style */
+.about-me{
+    padding: 50px;
+}
+
+.about-me-image img{
+    width: 300px;
+    height: 300px;
+}
+.about-me p{
+    text-align: left;
+   
+    width:auto;
+}
+
+/* professional experience section style */
+.professional-experience{
+    margin:10px 30px;
+    width: 90%;
+    height: 680px;
+    margin: 5px auto;
+    
+}
+
+/* achievement contact start style */
+.achievement-contact{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.contactMe button{
+    width: 150px;
+   margin-left: 10px;
+   }
+
+.contact-in-social{
+    position: relative;
+   
+}
+
+   .contact-links {
+    position: absolute;
+    margin-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%) ;
+   
+   }
+
+
+   .contact-links button{
+    font-size: 3rem;
+    border-radius: 60px;
+    padding: 5px;
+    width: 70px;
+    border: none;
+    margin: 5px 10px;
+   }
+
+   /* footer style start */
+
+.footer-links a{
+    text-decoration: none;
+    display:inline-block;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5rem;
+   }
+
+   .footer-links{
+    text-align: center;
+   }
+
+   .footer {
+    text-align: center;
+    padding: 2% 1%;
+   
+   }
